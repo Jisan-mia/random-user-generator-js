@@ -32,7 +32,7 @@ body {
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  width: 670px;
+  width: 675px;
   height: 396px;
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -161,8 +161,12 @@ footer p {
   .card {
     width: 290px;
   }
+  .user-info .user-info-inner h5 {
+    font-size: 14px;
+    line-height: 30px;
+  }
   .user-info .user-info-inner h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .user-info .user-info-inner {
     margin-top: 80px;
