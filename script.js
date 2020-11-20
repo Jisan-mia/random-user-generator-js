@@ -9,7 +9,6 @@ function apiFetch(){
 }
 
 function showDataOnUi(data){
-    console.log(data.results[0])
     const userName = `${data.results[0].name.first +" "+ data.results[0].name.last}`;
     
     const userEmail = `${data.results[0].email}`;
@@ -57,3 +56,6 @@ setTimeout(() => {
 
 apiFetch();
 
+function genrateNewUser(){
+    apiFetch();
+}
