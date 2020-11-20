@@ -65,6 +65,21 @@ body {
   width: 100%;
   border-radius: 50%;
   padding: 5px;
+  cursor: pointer;
+}
+.card .new {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #686a6df1;
 }
 
 .user-info {
@@ -132,6 +147,12 @@ footer p {
   color: gray;
   font-size: 14px;
 }
+
+footer .copywriteName {
+  color: orange;
+  cursor: pointer;
+}
+
 @media (max-width: 644px) {
   .card {
     width: 500px;
